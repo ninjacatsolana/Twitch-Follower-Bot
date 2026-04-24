@@ -12,7 +12,7 @@ const {
   X_ACCESS_SECRET
 } = process.env;
 
-const BUNDLE_SIZE = 5;
+const BUNDLE_SIZE = 1;
 let seenFollowers = new Set();
 let pendingFollowers = [];
 
